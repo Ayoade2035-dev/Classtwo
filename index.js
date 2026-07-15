@@ -57,6 +57,9 @@ app.get('/', (request,response) =>{
 app.get("/worldCup",(req,res) =>{
   res.send(worldCup);
 })
+app.get("/hurry",(req,res) =>{
+  res.send("I build my first api with express js");
+})
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
